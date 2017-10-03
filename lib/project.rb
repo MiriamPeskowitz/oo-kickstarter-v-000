@@ -12,7 +12,7 @@ end
 
 def add_backer(backer)
   @backers << backer
-
+  backer.packed_projects(project)
 end
 
 end
