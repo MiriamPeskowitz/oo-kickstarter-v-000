@@ -10,12 +10,7 @@ class Backer
 
   def back_project(project)# shuld this be title?
     @backed_projects << project
+    project.backers  << self
   end
 
 
-  def backed_projects
-  end
-
-backer
-backed_projects << new project
-also add the backer to the project's list of backers
